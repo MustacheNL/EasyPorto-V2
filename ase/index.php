@@ -10,7 +10,7 @@
 <body>
 <div class="login">
     <h1>Inloggen</h1>
-    <div class="isa_error">Oeps...</div>
+    <div class="isa_error">Oeps... error!</div>
     <form action="" method="post">
         <input type="text" name="username" value="PHP check hier" autocomplete="off" placeholder="Gebruikersnaam..."/><br/><br/>
         <input type="password" name="password" value="PHP check hier " autocomplete="off" placeholder="Wachtwoord..."/><br><br>
