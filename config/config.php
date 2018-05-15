@@ -1,6 +1,6 @@
 <?php
-include 'classes/database.class.php';
-include 'classes/user.class.php';
+include '../classes/database.class.php';
+include '../classes/user.class.php';
 
 session_start();
 define("DB_HOSTNAME", "127.0.0.1");  /* Your Database host (standard 127.0.0.1 or localhost) */

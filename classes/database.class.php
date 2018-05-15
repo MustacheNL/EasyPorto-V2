@@ -4,7 +4,7 @@ class Database {
     private $username = DB_USERNAME;
     private $password = DB_PASSWORD;
     private $database = DB_NAME;
-    private $db;
+    public $db;
 
     public function __construct() {
         try {
