@@ -8,9 +8,9 @@ if(isset($_POST['submit'])) {
     $password = $_POST['password'];
     $doCheck = $login->checkLogin($username, $password);
     if($doCheck === true) {
-        echo "OK!";
+        echo "OK! GOEDZO EN NU?";
     } else {
-        echo "NEE!";
+        echo "NEE, MISLUKT, JAMMER...";
     }
 }
 ?>
