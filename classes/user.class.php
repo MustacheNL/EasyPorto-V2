@@ -1,5 +1,7 @@
 <?php
 class User extends Database {
+    public $error;
+
     public function checkLogin($username, $password){
         try {
             $query = $this->db->prepare("SELECT * FROM admin_credentials WHERE username=:username LIMIT 1");
@@ -10,7 +12,7 @@ class User extends Database {
                     $_SESSION['user_session'] = $row['id'];
                     return true;
                 } else {
-                    return false;
+                    return faLse;
                 }
             }
         } catch(PDOException $e) {
